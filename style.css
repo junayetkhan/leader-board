@@ -7,12 +7,14 @@ font-family: 'Poppins', sans-serif;
 main{
     
     display: flex;
-    justify-content: center;
+    flex-direction: column;
+    align-items: center;
 }
 .container{
     width: 870px;
     background-color: #FFFFFF;
     padding: 30px;
+    border-radius: 5px;
 
 }
 .title{
@@ -42,9 +44,14 @@ main{
 }
 hr{
     border: 1px solid #D1D1D1;
+    margin-bottom: 30px;
 }
 .top-players{
     margin-bottom: 30px;
+}
+.blog-list{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
 }
 .blog{
     display: flex;
@@ -68,4 +75,26 @@ hr{
 .author{
     color: #9F9F9F;
     font-size: 16px;
+}
+.blog-img img{
+    width: 224px;
+    height: 104px;
+}
+.course-author a{
+    text-decoration: none;
+    color: #ED6B4F;
+}
+.ratting{
+    color: #FFC014;
+}
+.course-info{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+.courses{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-column-gap: 30px;
 }
