@@ -1,3 +1,25 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@500&family=Poppins:wght@500&display=swap');
+body{
+    font-family: 'DM Sans', sans-serif;
+font-family: 'Poppins', sans-serif;
+
+}
+main{
+    
+    display: flex;
+    justify-content: center;
+}
+.container{
+    width: 870px;
+    background-color: #FFFFFF;
+    padding: 30px;
+
+}
+.title{
+    font-weight: 500;
+    font-size: 24px;  
+
+}
 .players{
     display: grid;
     grid-template-columns: repeat(3, 1fr);
@@ -10,5 +32,9 @@
 .player{
     display: flex;
     align-items: center;
+    font-size: 1.2rem;
     
+}
+.player-size{
+    padding: 16px;
 }
